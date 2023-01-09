@@ -18,7 +18,7 @@ export default function Home({git,project}) {
           </Head>
          <Navbar img={git.avatar_url}  />
   
-       <img src={git.avatar_url} style={{width:"200px",borderRadius:"50%"}} alt={git.name} />
+       {/* <img src={git.avatar_url} style={{width:"200px",borderRadius:"50%"}} alt={git.name} /> */}
       <div>{git.id}</div>
         <div>{git.name}</div>
           <div>@{git.login}</div>
